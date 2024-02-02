@@ -33,7 +33,7 @@ int main(int argc, char * argv[])
     std::string jointslist = "0,1,2";
     std::string basepath = "data/";
     std::string inputFileName = basepath+subpart+"/data.log";
-    std::string outputFileName = basepath+"/out/"+subpart+"/data.log";
+    std::string outputFileName = basepath+"out/"+subpart+"/data.log";
     
 
     while (1)

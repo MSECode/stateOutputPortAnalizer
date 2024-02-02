@@ -30,7 +30,7 @@ bool StateOutputPortAnalizer::generateOutputInfoLog(std::string basepath, std::s
         return false;
     }
     
-    std::ofstream info_log_out(basepath+"/out/"+subpart+"/info.log");
+    std::ofstream info_log_out(basepath+"out/"+subpart+"/info.log");
     if (!info_log_out.is_open())
     {
         std::cerr << "Unable to open file. Cannot proceed.\n";
