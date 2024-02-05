@@ -18,6 +18,7 @@ Currently the availbale commands that can be used with this application are the 
 
 ## Usage of the application
 
+- unzip in the `working_directory` the file `left_arm.zip`, which contains the files for running the default example program
 - create inside the project the `build` directory
 - run the commands in order:
     
